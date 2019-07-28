@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/category/category",
+    "pages/cart/cart"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,5 +13,19 @@
     "?navigationBarTextStyle": "标题栏文字颜色",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/category/category",
+      "text": "分类"
+    }, {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车"
+    }],
+    "color": "#999",
+    "selectedColor": "#c00"
+  }
 }

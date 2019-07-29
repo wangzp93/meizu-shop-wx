@@ -1,6 +1,7 @@
 //app.js
 App({
-  onLaunch: function () {
-    
+  onLaunch: function (options) {
+    console.log(options === wx.getLaunchOptionsSync());
+    console.log(getApp())
   }
 })

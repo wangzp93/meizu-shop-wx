@@ -1,2 +1,7 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<view>ss</view>
+<functional-page-navigator name="loginAndGetUserInfo">
+  <button>用户信息功能页</button>
+</functional-page-navigator>
+<functional-page-navigator name="requestPayment">支付功能页</functional-page-navigator>

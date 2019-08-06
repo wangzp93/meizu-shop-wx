@@ -1,1 +1,9 @@
 /* pages/home/home.wxss */
+/* 轮播图 */
+swiper {
+  height: 389rpx;
+}
+.slide-image {
+  width: 100%;
+  height: 100%;
+}

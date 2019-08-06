@@ -38,6 +38,7 @@
       "selectedIconPath": "images/tabBar/me-on.png"
     }],
     "color": "#999",
-    "selectedColor": "#1296db"
+    "selectedColor": "#1296db",
+    "borderStyle": "white"
   }
 }

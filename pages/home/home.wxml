@@ -1,7 +1,10 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
-<view>ss</view>
-<functional-page-navigator name="loginAndGetUserInfo">
-  <button>用户信息功能页</button>
-</functional-page-navigator>
-<functional-page-navigator name="requestPayment">支付功能页</functional-page-navigator>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+  circular="{{circular}}" easing-function="{{easingFunction}}">
+  <block wx:for="{{bannerList}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item.img_src}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>

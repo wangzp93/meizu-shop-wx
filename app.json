@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/home/home",
+    "pages/index/index",
     "pages/category/category",
     "pages/cart/cart",
     "pages/me/me"
@@ -17,10 +17,10 @@
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "list": [{
-      "pagePath": "pages/home/home",
+      "pagePath": "pages/index/index",
       "text": "首页",
-      "iconPath": "images/tabBar/home-off.png",
-      "selectedIconPath": "images/tabBar/home-on.png"
+      "iconPath": "images/tabBar/index-off.png",
+      "selectedIconPath": "images/tabBar/index-on.png"
     }, {
       "pagePath": "pages/category/category",
       "text": "分类",

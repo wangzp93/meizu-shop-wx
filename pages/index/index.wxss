@@ -29,7 +29,7 @@ swiper {
   padding-left: 5vw;
   font-size: 2.6vw;
   color: #999;
-  position: relative; 
+  position: relative;
 }
 .index-hot-site .hot-tip-bar .hot-tip-bar-item image {
   position: absolute;
@@ -47,21 +47,22 @@ swiper {
   padding-top: 4vw;
   padding-bottom: 1vw;
 }
-.index-hot-site .hot-site .hot-site {
+.index-hot-site .hot-site .hot-site-item {
   display: inline-block;
   width: 20vw;
   height: 17vw;
   margin: 0 1vw;
 }
-/* .index-hot-site .hot-site .hot-site a {
+/* .index-hot-site .hot-site .hot-site-item a {
   display: block;  
 } */
-.index-hot-site .hot-site .hot-site image {
+.index-hot-site .hot-site .hot-site-item image {
   display: block;
   width: 8.33333vw;
+  height: 8.33333vw;
   margin: 0 auto;
 }
-.index-hot-site .hot-site .hot-site text {
+.index-hot-site .hot-site .hot-site-item text {
   color: #000;
   line-height: 2.6;
   font-size: 3.33333vw;

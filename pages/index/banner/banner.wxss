@@ -1,0 +1,15 @@
+/* 广告 */
+.index-banner {
+  display: flex;
+}
+.index-banner .row {
+  width: 50%;
+}
+.index-banner .row .banner-lg {
+  width: 100%;
+}
+.index-banner .row .banner-lg image {
+  width: 100%;
+  display: block;
+}
+/* 广告 end */

@@ -5,26 +5,16 @@
   circular="{{circular}}" easing-function="{{easingFunction}}">
   <block wx:for="{{bannerList}}" wx:key="{{index}}">
     <swiper-item>
-      <image src="{{item.img_src}}" class="slide-image"/>
+      <image src="{{item.img_src}}" mode="widthFix" class="slide-image"/>
     </swiper-item>
   </block>
 </swiper>
 
 <!-- 热点 -->
-<view class="index-hot-site">
-  <!-- 上半部 -->
-  <view class="hot-tip-bar">
-    <view wx:for="{{tipBarList}}" wx:for-item="tipBar" wx:key="{{index}}" class="hot-tip-bar-item">
-      <image src="{{tipBar.img_src}}" />{{ tipBar.text }}
-    </view>
-  </view>
-  <!-- 下半部 -->
-  <view class="hot-site">
-    <view wx:for="{{hotSideList}}" wx:for-item="hotSide" wx:key="{{index}}" class="hot-site-item">
-      <!-- <a :href="hotSide.a_href"> -->
-        <image src="{{hotSide.img_src}}" alt="" />
-        <text>{{ hotSide.text }}</text>
-      <!-- </a> -->
-    </view>
-  </view>
-</view>
+<hot-site></hot-site>
+
+<!-- 广告 -->
+<banner></banner>
+
+<!-- 手机列表 -->
+<phone></phone>

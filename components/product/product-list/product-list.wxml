@@ -1,0 +1,17 @@
+<view class="product-list">
+  <view wx:for="{{productList}}" wx:for-item="product" wx:key="{{index}}" class="product-content">
+    <navigator url="{{product.a_href}}">
+      <image src="{{product.img_src}}" alt="{{product.name}}" />
+      <view class="info">
+        <view class="products-name">{{ product.name }}</view>
+        <view class="slogan">
+          <text class="slogan-feature">
+            <text class="slogan-special">{{ product.slogan }}</text>
+            {{ product.feature }}
+          </text>
+        </view>
+        <view class="price"><i>{{ product.unit }}</i>{{ product.price }}</view>
+      </view>
+    </navigator>
+  </view>
+</view>

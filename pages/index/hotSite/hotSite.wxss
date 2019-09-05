@@ -1,0 +1,59 @@
+/* 热点 */
+/* 外部框 */
+.index-hot-site {
+  background: #fff;
+  margin-bottom: 2.77778vw;
+  text-align: center;
+}
+/* 上半部 */
+.index-hot-site .hot-tip-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4vw 7.40741vw;
+  background-color: #f7f7f7;    
+}
+.index-hot-site .hot-tip-bar .hot-tip-bar-item {
+  display: inline-block;
+  padding-left: 5vw;
+  font-size: 2.6vw;
+  color: #999;
+  position: relative;
+}
+.index-hot-site .hot-tip-bar .hot-tip-bar-item image {
+  position: absolute;
+  width: 3.51852vw;
+  height: 3.51852vw;
+  background: #999;
+  left: 0;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* 下半部 */
+.index-hot-site .hot-site {
+  padding-top: 4vw;
+  padding-bottom: 1vw;
+}
+.index-hot-site .hot-site .hot-site-item {
+  display: inline-block;
+  width: 20vw;
+  height: 17vw;
+  margin: 0 1vw;
+}
+/* .index-hot-site .hot-site .hot-site-item a {
+  display: block;  
+} */
+.index-hot-site .hot-site .hot-site-item image {
+  display: block;
+  width: 8.33333vw;
+  height: 8.33333vw;
+  margin: 0 auto;
+}
+.index-hot-site .hot-site .hot-site-item text {
+  color: #000;
+  line-height: 2.6;
+  font-size: 3.33333vw;
+}
+/* 热点 end */

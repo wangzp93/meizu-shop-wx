@@ -3,40 +3,49 @@
     "pages/index/index",
     "pages/category/category",
     "pages/cart/cart",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/index/hotSite/hotSite",
+    "pages/index/banner/banner",
+    "components/phone",
+    "components/phone/phone",
+    "components/product/product-ad/product-ad",
+    "components/product/product-title/product-title",
+    "components/product/product-list/product-list"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "?navigationBarBackgroundColor": "标题栏背景颜色",
     "navigationBarBackgroundColor": "#eee",
-    "?navigationBarTitleText": "标题栏文字内容",
-    "navigationBarTitleText": "微信小程序框架",
-    "?navigationBarTextStyle": "标题栏文字颜色",
+    "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "images/tabBar/index-off.png",
-      "selectedIconPath": "images/tabBar/index-on.png"
-    }, {
-      "pagePath": "pages/category/category",
-      "text": "分类",
-      "iconPath": "images/tabBar/category-off.png",
-      "selectedIconPath": "images/tabBar/category-on.png"
-    }, {
-      "pagePath": "pages/cart/cart",
-      "text": "购物车",
-      "iconPath": "images/tabBar/cart-off.png",
-      "selectedIconPath": "images/tabBar/cart-on.png"
-    }, {
-      "pagePath": "pages/me/me",
-      "text": "我的",
-      "iconPath": "images/tabBar/me-off.png",
-      "selectedIconPath": "images/tabBar/me-on.png"
-    }],
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/index-off.png",
+        "selectedIconPath": "images/tabBar/index-on.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "images/tabBar/category-off.png",
+        "selectedIconPath": "images/tabBar/category-on.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/tabBar/cart-off.png",
+        "selectedIconPath": "images/tabBar/cart-on.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/tabBar/me-off.png",
+        "selectedIconPath": "images/tabBar/me-on.png"
+      }
+    ],
     "color": "#999",
     "selectedColor": "#1296db",
     "borderStyle": "white"

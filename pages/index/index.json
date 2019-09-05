@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "hot-site": "/pages/index/hotSite/hotSite",
+    "banner": "/pages/index/banner/banner",
+    "phone": "/components/phone/phone"
+  }
 }

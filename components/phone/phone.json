@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "product-title": "/components/product/product-title/product-title",
+    "product-list": "/components/product/product-list/product-list"
+  },
+  "components": true
+}

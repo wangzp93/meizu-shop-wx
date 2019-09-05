@@ -1,0 +1,15 @@
+<!-- 手机列表 -->
+<view class="index-phone">
+  <!-- 标题 -->
+  <product-title title="{{title}}"></product-title>
+
+  <!-- 广告 -->
+  <view class="list-ad">
+      <navigator url="{{ad.a_href}}">
+          <image src="{{ad.img_src}}" alt="" />
+      </navigator>
+  </view>
+
+  <!-- 手机列表 -->
+  <product-list productList="{{list}}"></product-list>
+</view>

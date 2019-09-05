@@ -3,16 +3,16 @@
   <!-- 上半部 -->
   <view class="hot-tip-bar">
     <view wx:for="{{tipBarList}}" wx:for-item="tipBar" wx:key="{{index}}" class="hot-tip-bar-item">
-      <image src="{{tipBar.img_src}}" mode="widthFix" />{{ tipBar.text }}
+      <image src="{{tipBar.img_src}}" mode="widthFix"></image>{{ tipBar.text }}
     </view>
   </view>
   <!-- 下半部 -->
   <view class="hot-site">
     <view wx:for="{{hotSideList}}" wx:for-item="hotSide" wx:key="{{index}}" class="hot-site-item">
-      <!-- <a :href="hotSide.a_href"> -->
-        <image src="{{hotSide.img_src}}" mode="widthFix" alt="" />
+      <navigator url="{{hotSide.a_href}}">
+        <image src="{{hotSide.img_src}}" mode="widthFix" alt=""></image>
         <text>{{ hotSide.text }}</text>
-      <!-- </a> -->
+      </navigator>
     </view>
   </view>
 </view>

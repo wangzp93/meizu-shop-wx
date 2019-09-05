@@ -1,0 +1,15 @@
+/* 生活周边 */
+
+/* title颜色 */
+.index-surround .list-title::after {
+  background: #6fdc39;
+}
+
+/* 广告背景颜色 */
+.index-surround .list-ad .accessoary-ad:nth-child(odd) {
+  background: rgb(245, 92, 92);
+}
+
+.index-surround .list-ad .accessoary-ad:nth-child(even) {
+  background: rgb(112, 99, 201);
+}

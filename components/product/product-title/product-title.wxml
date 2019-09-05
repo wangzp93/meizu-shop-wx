@@ -1,1 +1,2 @@
+<!-- 产品标题 -->
 <view class="list-title">{{title}}</view>

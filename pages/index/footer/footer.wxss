@@ -1,0 +1,46 @@
+/* 底部 */
+
+/* 返回顶部 */
+.main-footer .back-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17.22222vw;
+  background: #f4f4f4;
+  cursor: pointer;
+}
+.main-footer .back-to-top text {
+  display: inline-block;
+  color: #999;
+  font-size: 4.16667vw;
+}
+
+/* 联系方式 */
+.main-footer .footer-contact {
+  background: #fff;
+  display: flex;
+  padding: 6.01852vw 3vw 0;
+}
+.main-footer .footer-contact navigator {
+  height: 9.72222vw;
+  line-height: 9.72222vw;
+  font-size: 4.25926vw;
+  text-align: center;
+  border-radius: 5vw;
+  margin: 0 2vw;
+  flex: 1;
+  overflow: hidden;
+  background: #00b4ff;
+  color: #fff;
+}
+
+/* 备案信息 */
+.main-footer .footer-record {
+  background: #fff;
+  padding: 5vw;
+  font-size: 2.26852vw;
+  line-height: 1.6;
+}
+.main-footer .footer-record navigator {
+  color: #999;
+}

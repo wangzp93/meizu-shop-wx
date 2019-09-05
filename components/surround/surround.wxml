@@ -1,0 +1,11 @@
+<!-- 生活周边 -->
+<view class="index-surround">
+    <!-- 标题 -->
+    <product-title title="{{title}}"></product-title>
+
+    <!-- 广告 -->
+    <product-ad adList="{{ad}}"></product-ad>
+
+    <!-- 周边列表 -->
+    <product-list productList="{{list}}"></product-list>
+</view>

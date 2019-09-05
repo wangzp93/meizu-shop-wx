@@ -1,0 +1,11 @@
+<view class="main-footer">
+  <view class="back-to-top" bindtap="toTheTop">
+    <text>{{ footerData.text }}</text>
+  </view>
+  <view class="footer-contact">
+    <navigator wx:for="{{footerData.contactList}}" wx:for-item="contact" wx:key="{{index}}" url="{{contact.a_href}}">{{ contact.text }}</navigator>
+  </view>
+  <view class="footer-record">
+    <navigator wx:for="{{footerData.recordList}}" wx:for-item="record" wx:key="{{index}}" url="{{record.a_href}}">{{ record.text }}</navigator>
+  </view>
+</view>

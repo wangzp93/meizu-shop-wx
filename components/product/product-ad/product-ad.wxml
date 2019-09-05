@@ -1,2 +1,15 @@
-<!--components/product/product-ad/product-ad.wxml-->
-<text>components/product/product-ad/product-ad.wxml</text>
+<!-- 广告列表 -->
+<view class="list-ad">
+  <view wx:for="{{adList}}" wx:for-item="ad" wx:key="{{index}}" class="accessoary-ad">
+    <navigator url="{{ad.a_href}}">
+      <view class="accessoary-ad-detail">
+        <view class="ad-name">{{ ad.name }}</view>
+        <view class="ad-feature">{{ ad.feature }}</view>
+        <view class="ad-price">
+          <i>{{ ad.unit }}</i>{{ ad.price }}
+        </view>
+      </view>
+      <image class="lazy-img loaded-img" actived="actived" src="{{ad.img_src}}" mode="widthFix"></image>
+    </navigator>
+  </view>
+</view>

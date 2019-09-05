@@ -1,0 +1,15 @@
+/* 智能配件 */
+
+/* title颜色 */
+.index-section .list-title::after {
+  background: #7143ff;
+}
+
+/* 广告背景颜色 */
+.index-section .list-ad .accessoary-ad:nth-child(odd) {
+  background: #55C3C3;
+}
+
+.index-section .list-ad .accessoary-ad:nth-child(even) {
+  background: #FFAE45;
+}

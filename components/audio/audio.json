@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "product-title": "/components/product/product-title/product-title",
+    "product-ad": "/components/product/product-ad/product-ad",
     "product-list": "/components/product/product-list/product-list"
   }
+  
 }

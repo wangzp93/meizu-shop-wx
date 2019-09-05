@@ -2,6 +2,10 @@
   "usingComponents": {
     "hot-site": "/pages/index/hotSite/hotSite",
     "banner": "/pages/index/banner/banner",
-    "phone": "/components/phone/phone"
+    "phone": "/components/phone/phone",
+    "audio-p": "/components/audio/audio",
+    "section": "/components/section/section",
+    "surround": "/components/surround/surround",
+    "footer": "/pages/index/footer/footer"
   }
 }

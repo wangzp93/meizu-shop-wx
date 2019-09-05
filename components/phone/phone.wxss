@@ -1,1 +1,3 @@
-/* components/phone/phone.wxss */
+.index-phone .list-title::after {
+  background: #0bbbef;
+}

@@ -6,7 +6,7 @@
   <!-- 广告 -->
   <view class="list-ad">
       <navigator url="{{ad.a_href}}">
-          <image src="{{ad.img_src}}" alt="" />
+          <image src="{{ad.img_src}}" mode="widthFix" alt="" />
       </navigator>
   </view>
 

@@ -1,1 +1,33 @@
-/* pages/cart/cart.wxss */
+.cart {
+  background: #EEE;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+.cart .content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -10vw;
+
+}
+.cart .content .cart-text {
+  font-size: 3.5vw;
+  color: #666;
+  margin: 0 0 8vw 0;
+}
+
+.cart .content navigator {
+  display: inline-block;
+  width: 30vw;
+  height: 10vw;
+  line-height: 10vw;
+  font-size: 3vw;
+  background: #00C3F5;
+  color: #FFF;
+  border-radius: 0.5vw;
+}

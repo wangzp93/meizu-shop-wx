@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "首页",
   "usingComponents": {
     "hot-site": "/pages/index/hotSite/hotSite",
     "banner": "/pages/index/banner/banner",

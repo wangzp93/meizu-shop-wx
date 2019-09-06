@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/me/me",
     "pages/index/index",
     "pages/category/category",
     "pages/cart/cart",
-    "pages/me/me",
     "pages/index/hotSite/hotSite",
     "pages/index/banner/banner",
     "components/phone/phone",
@@ -13,7 +13,11 @@
     "components/audio/audio",
     "components/section/section",
     "components/surround/surround",
-    "pages/index/footer/footer"
+    "pages/index/footer/footer",
+    "pages/me/my-info/my-info",
+    "pages/me/my-order/my-order",
+    "pages/me/my-item/my-item",
+    "pages/me/my-other/my-other"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,15 @@
+<view class="my-info">
+  <!-- 功能按钮 -->
+  <!-- <i @click="back" class="icon-back">
+    <svg-icon iconName="back"></svg-icon>
+  </i>
+  <i class="icon-msg">
+    <svg-icon iconName="msg"></svg-icon>
+  </i> -->
+  <!-- 头像 -->
+  <view class="my-icon">
+    <image src="{{img_src}}" mode="widthFix"></image>
+  </view>
+  <!-- 昵称 -->
+  <view class="my-name">{{ myName }}</view>
+</view>

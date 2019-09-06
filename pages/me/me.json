@@ -1,3 +1,9 @@
 {
-  "navigationBarTitleText": "个人中心"
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "my-info": "/pages/me/my-info/my-info",
+    "my-order": "/pages/me/my-order/my-order",
+    "my-item": "/pages/me/my-item/my-item",
+    "my-other": "/pages/me/my-other/my-other"
+  }
 }

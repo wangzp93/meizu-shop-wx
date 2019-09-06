@@ -1,0 +1,41 @@
+.my-info {
+  background: linear-gradient(rgb(0, 187, 232), rgb(0, 146, 221));
+  padding: 5vw;
+}
+/* 功能按钮 */
+.my-info .icon-back {
+  float: left;
+}
+
+.my-info .icon-msg {
+  float: right;
+}
+
+.my-info .icon {
+  color: #FFF;
+  font-size: 5vw;
+  cursor: pointer;
+}
+
+/* 头像 */
+.my-info .my-icon {
+  width: 21vw;
+  height: 21vw;
+  margin: 0 auto;
+  background: #FFF;
+  border-radius: 50%;
+  padding: 0.8vw;
+
+}
+.my-info .my-icon image {
+  border-radius: 50%;
+}
+
+/* 昵称 */
+.my-info .my-name {
+  text-align: center;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 4vw;
+  margin-top: 2vw;
+}

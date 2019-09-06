@@ -1,0 +1,6 @@
+<view class="my-other">
+  <navigator wx:for="{{otherList}}" wx:for-item="other" url="{{other.a_href}}" wx:key="{{index}}">
+    <text>{{ other.text }}</text>
+    <text class="iconfont icon-next"></text>
+  </navigator>
+</view>

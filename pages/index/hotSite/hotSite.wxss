@@ -42,16 +42,10 @@
   height: 17vw;
   margin: 0 1vw;
 }
-/* .index-hot-site .hot-site .hot-site-item a {
-  display: block;  
-} */
 .index-hot-site .hot-site .hot-site-item image {
-  display: block;
   width: 8.33333vw;
-  height: 8.33333vw;
-  margin: 0 auto;
 }
-.index-hot-site .hot-site .hot-site-item text {
+.index-hot-site .hot-site .hot-site-item .hot-site-item-text {
   color: #000;
   line-height: 2.6;
   font-size: 3.33333vw;

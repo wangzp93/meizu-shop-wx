@@ -1,2 +1,6 @@
-<!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<view class="me-index">
+  <my-info></my-info>
+  <my-order></my-order>
+  <my-item></my-item>
+  <my-other></my-other>
+</view>

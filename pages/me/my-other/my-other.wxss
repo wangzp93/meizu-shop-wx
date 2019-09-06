@@ -1,0 +1,17 @@
+.my-other {
+  margin-top: 2vw;
+  background: #FFF;
+
+}
+.my-other navigator {
+  padding: 0 5vw;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  font-size: 4vw;
+  line-height: 3.5em;
+
+}
+.my-other navigator:nth-child(n + 2) {
+  border-top: 1px solid #E5E5E5;
+}

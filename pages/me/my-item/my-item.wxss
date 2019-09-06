@@ -1,0 +1,15 @@
+.my-item {
+  margin-top: 2vw;
+  padding: 3vw 0;
+  background: #FFF;
+  display: flex;
+  justify-content: space-around;
+}
+.my-item navigator {
+  text-align: center;
+  color: #666;
+  font-size: 3.5vw;
+}
+.my-item navigator image {
+  width: 7vw;
+}

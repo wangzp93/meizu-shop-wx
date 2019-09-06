@@ -3,7 +3,8 @@
     <text>{{ footerData.text }}</text>
   </view>
   <view class="footer-contact">
-    <navigator wx:for="{{footerData.contactList}}" wx:for-item="contact" wx:key="{{index}}" url="{{contact.a_href}}">{{ contact.text }}</navigator>
+    <button bindtap="makePhone" data-phonenum="{{footerData.contactList[0].text}}" class="btn">{{ footerData.contactList[0].text }}</button>
+    <navigator url="{{footerData.contactList[1].a_href}}" class="btn">{{ footerData.contactList[1].text }}</navigator>
   </view>
   <view class="footer-record">
     <navigator wx:for="{{footerData.recordList}}" wx:for-item="record" wx:key="{{index}}" url="{{record.a_href}}">{{ record.text }}</navigator>

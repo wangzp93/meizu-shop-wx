@@ -2,7 +2,7 @@
 <view class="product-list">
   <view wx:for="{{productList}}" wx:for-item="product" wx:key="{{index}}" class="product-content">
     <navigator url="{{product.a_href}}">
-      <image src="{{product.img_src}}" alt="{{product.name}}" mode="widthFix"></image>
+      <image src="{{product.img_src}}" alt="{{product.name}}" lazy-load="true" mode="widthFix"></image>
       <view class="info">
         <view class="products-name">{{ product.name }}</view>
         <view class="slogan">

@@ -1,1 +1,35 @@
-/* pages/category/category.wxss */
+/* 导航栏 */
+
+    .category .category-nav {
+        width: 13vw;
+        float: left;
+
+        /* a {
+            display: block;
+            color: #000;
+            font-size: 4vw;
+            padding: 2vw 0;
+            text-align: center;
+
+            span {
+                float: left;
+                width: 0.3em;
+                height: 1.3em;
+                vertical-align: middle;
+            }
+
+            &.router-link-active {
+                color: #007aff;
+
+                span {
+                    background: #007aff;
+                }
+            }
+        } */
+    }
+
+    .category .category-content {
+        margin-left: 13vw;
+        min-height: 88.5vh;
+        border-left: 1px solid #ccc;
+    }

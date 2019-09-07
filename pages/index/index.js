@@ -7,6 +7,9 @@ Page({
   data: {
     // 轮播图
     "bannerList": [{
+      "a_href": "https://detail.mall.meizu.com/item/meizu16spro.html",
+      "img_src": "https://fms.res.meizu.com/dms/2019/08/28/235cbc27-d0fd-4249-a933-1aaad5f8d591.jpg"
+    }, {
       "a_href": "https://m.meizu.com/16s/summary/",
       "img_src": "https://fms.res.meizu.com/dms/2019/04/23/3ea001fa-7cac-4de9-9fb3-8c34d1244d2e.jpg"
     }, {

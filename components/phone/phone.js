@@ -12,6 +12,22 @@ Page({
       "img_src": "https://openfile.meizu.com/group1/M00/07/08/Cgbj0VxmbimAFFM6AAJBovov-HM067.jpg"
     },
     "list": [{
+      "a_href": "https://detail.meizu.com/item/meizu16spro.html",
+      "img_src": "https://openfile.meizu.com/group1/M00/07/48/Cgbj0F1jhu-AaV4AAAlk4z4lkt0463.png",
+      "name": "魅族 16s Pro",
+      "slogan": "新品",
+      "feature": "⾼通骁⻰ 855 Plus  | 索尼 4800W 像素超广角 AI 三摄",
+      "unit": "￥",
+      "price": 2699
+    }, {
+      "a_href": "https://detail.mall.meizu.com/item/meizu16s.html",
+      "img_src": "https://openfile.meizu.com/group1/M00/07/23/Cgbj0FzaXQqAH-L3AAeSSra0qAg862.png",
+      "name": "魅族 16s",
+      "slogan": "领券",
+      "feature": "骁龙855 4800W光学防抖",
+      "unit": "￥",
+      "price": 2699
+    }, {
       "a_href": "https://detail.meizu.com/item/meizu16th.html",
       "img_src": "https://openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png",
       "name": "魅族 16th",

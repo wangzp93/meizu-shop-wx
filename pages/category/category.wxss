@@ -1,35 +1,28 @@
 /* 导航栏 */
+.category {
+  display: flex;
+}
+/* 左半部 */
+.category .category-nav {
+  width: 13vw;
+}
+.category .category-nav .category-nav-item {
+  text-align: center;
+  padding: 2vw 0;
+}
+.category .category-nav .category-nav-item::before {
+  content: '';
+  float: left;
+  width: 0.3em;
+  height: 1.3em;
+}
 
-    .category .category-nav {
-        width: 13vw;
-        float: left;
+.category .category-nav .category-nav-item.active::before {
+  background: #007aff;
+}
 
-        /* a {
-            display: block;
-            color: #000;
-            font-size: 4vw;
-            padding: 2vw 0;
-            text-align: center;
-
-            span {
-                float: left;
-                width: 0.3em;
-                height: 1.3em;
-                vertical-align: middle;
-            }
-
-            &.router-link-active {
-                color: #007aff;
-
-                span {
-                    background: #007aff;
-                }
-            }
-        } */
-    }
-
-    .category .category-content {
-        margin-left: 13vw;
-        min-height: 88.5vh;
-        border-left: 1px solid #ccc;
-    }
+/* 右半部 */
+.category .category-content {
+  flex: 1;
+  border-left: 1px solid #ccc;
+}

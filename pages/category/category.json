@@ -1,3 +1,9 @@
 {
-  "navigationBarTitleText": "分类"
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "phone": "/components/phone/phone",
+    "audio-p": "/components/audio/audio",
+    "section": "/components/section/section",
+    "surround": "/components/surround/surround"
+  }
 }

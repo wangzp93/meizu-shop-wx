@@ -9,7 +9,7 @@
           <i>{{ ad.unit }}</i>{{ ad.price }}
         </view>
       </view>
-      <image class="lazy-img loaded-img" actived="actived" src="{{ad.img_src}}" mode="widthFix"></image>
+      <image lazy-load="true" src="{{ad.img_src}}" mode="widthFix"></image>
     </navigator>
   </view>
 </view>

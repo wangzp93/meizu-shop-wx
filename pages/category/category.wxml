@@ -1,8 +1,21 @@
 <view class="category">
-        <view class="category-nav">
-            
-        </view>
-        <view class="category-content">
-            
-        </view>
-    </view>
+  <view class="category-nav" bindtap="changeTab">
+    <view class="category-nav-item {{active==='0' ? 'active': ''}}" data-i='0'>手机</view>
+    <view class="category-nav-item {{active==='1' ? 'active': ''}}" data-i='1'>耳机</view>
+    <view class="category-nav-item {{active==='2' ? 'active': ''}}" data-i='2'>配件</view>
+    <view class="category-nav-item {{active==='3' ? 'active': ''}}" data-i='3'>周边</view>
+  </view>
+  <view class="category-content">
+    <!-- 手机列表 -->
+    <phone wx:if="{{active === '0'}}"></phone>
+
+    <!-- 耳机列表 -->
+    <audio-p wx:elif="{{active === '1'}}"></audio-p>
+
+    <!-- 配件 -->
+    <section wx:elif="{{active === '2'}}"></section>
+
+    <!-- 生活周边 -->
+    <surround wx:elif="{{active === '3'}}"></surround>
+  </view>
+</view>

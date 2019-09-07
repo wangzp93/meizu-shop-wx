@@ -1,11 +1,11 @@
 /**app.wxss**/
+/* 全局背景色 */
 page {
   background: #f4f4f4;
 }
 image {
   width: 100%;
   height: 100%;
-  /* display: block; */
 }
 
 /* 阿里矢量图标 */

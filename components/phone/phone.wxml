@@ -5,9 +5,9 @@
 
   <!-- 广告 -->
   <view class="list-ad">
-      <navigator url="{{ad.a_href}}">
-          <image src="{{ad.img_src}}" mode="widthFix" alt="" />
-      </navigator>
+    <navigator url="{{ad.a_href}}">
+      <image src="{{ad.img_src}}" mode="widthFix" alt=""></image>
+    </navigator>
   </view>
 
   <!-- 手机列表 -->

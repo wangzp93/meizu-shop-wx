@@ -7,19 +7,19 @@ Page({
   data: {
     "title": "魅族声学",
     "ad": [{
-      "a_href": "https://detail.meizu.com/item/meizu_TW50s.html",
-      "img_src": "https://fms.res.meizu.com/dms/2019/04/23/0ad593e8-184d-43a4-8ad3-d911ae86a048.jpg",
-      "name": "魅族 POP2 真无线蓝牙耳机",
-      "feature": "蓝牙5.0 超长续航",
+      "a_href": "https://detail.mall.meizu.com/item/MEIZUURYY.html",
+      "img_src": "https://fms.res.meizu.com/dms/2019/08/28/1cbca752-3b8f-4ddf-a20e-c6bbcbebc5fa.jpg",
+      "name": "MEIZU UR 高端定制耳机  预约",
+      "feature": "【预约专用】私人定制，为你而声",
       "unit": "￥",
-      "price": 399
+      "price": 200
     }, {
-      "a_href": "https://detail.meizu.com/item/meizu_EP63.html",
-      "img_src": "https://fms.res.meizu.com/dms/2019/04/23/40286483-c2a7-42d1-8a8a-e892d92adb11.jpg",
-      "name": "魅族 EP63NC 无线降噪耳机",
-      "feature": "智能降噪 声临其境",
+      "a_href": "https://detail.mall.meizu.com/item/ep3c.html",
+      "img_src": "https://fms.res.meizu.com/dms/2019/08/28/71613ce4-4a4b-403b-be93-7fc34f9a81f7.jpg",
+      "name": "魅族 EP3C 耳机",
+      "feature": "Hi-Res 认证高解析音质 | 高保真生物纤维振膜",
       "unit": "￥",
-      "price": 499
+      "price": 129
     }],
     "list": [{
       "a_href": "https://detail.meizu.com/item/meizu16th.html",

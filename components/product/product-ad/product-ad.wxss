@@ -1,6 +1,6 @@
 /* 广告图片 */
 
-.list-ad .accessoary-ad image {
+.list-ad .accessoary-ad .product-img {
   width: 50%;
   display: block;
 }
@@ -49,7 +49,7 @@
   color: hsla(0, 0%, 100%, .7);
   font-size: 4.62963vw;
 }
-.list-ad .accessoary-ad .accessoary-ad-detail .ad-price i {
+.list-ad .accessoary-ad .accessoary-ad-detail .ad-price .ad-price-icon {
   font-style: normal;
 }
 

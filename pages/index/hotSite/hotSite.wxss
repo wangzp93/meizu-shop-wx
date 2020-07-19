@@ -20,7 +20,7 @@
   color: #999;
   position: relative;
 }
-.index-hot-site .hot-tip-bar .hot-tip-bar-item image {
+.index-hot-site .hot-tip-bar .hot-tip-bar-item .hot-tip-bar-item-img {
   position: absolute;
   width: 3.51852vw;
   height: 3.51852vw;
@@ -42,7 +42,7 @@
   height: 17vw;
   margin: 0 1vw;
 }
-.index-hot-site .hot-site .hot-site-item image {
+.index-hot-site .hot-site .hot-site-item .hot-site-item-img {
   width: 8.33333vw;
 }
 .index-hot-site .hot-site .hot-site-item .hot-site-item-text {

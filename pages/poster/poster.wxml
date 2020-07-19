@@ -1,0 +1,31 @@
+<view>
+  <!-- html -->
+  <view class="outer" style="width:{{wrap.w}}rpx;height:{{wrap.h}}rpx;">
+    <!-- 自定义图片 -->
+    <movable-area scale-area style="width:100%;height:100%;">
+      <movable-view direction="all" scale
+        style="left:{{photo.x}}rpx;top:{{photo.y}}rpx;width:{{photo.w}}rpx;height:{{photo.h}}rpx;"
+        bind:change="posiChange" bind:scale="scaleChange">
+        <image lazy-load src="{{photo.src}}"
+          style="width:100%;height:100%;"></image>  
+      </movable-view>
+    </movable-area>
+    <!-- 外框 -->
+    <image class="wrap" lazy-load src="{{wrap.src}}"
+      style="left:{{wrap.x}}rpx;top:{{wrap.y}}rpx;"></image>
+    <!-- 文本 -->
+    <text class="text"
+      style="left:{{text.x}}rpx;top:{{text.y}}rpx;font-size:{{text.fontSize}}rpx;color: {{text.color}};line-height:{{text.fontSize}}rpx;">{{text.text}}</text>
+  </view>
+  <button type="primary" bind:tap="drawCvs" style="margin-top:20rpx;">生成canvas</button>
+  <!-- canvas -->
+  <view>
+    <canvas class="cvs" canvas-id="cvs"
+      style="width:{{wrap.w}}rpx;height:{{wrap.h}}rpx;"></canvas>
+  </view>
+  <!-- image -->
+  <view>
+    <image show-menu-by-longpress class="image" lazy-load src="{{finalImg}}"
+      style="width:{{wrap.w}}rpx;height:{{wrap.h}}rpx;"></image>
+  </view>
+</view>

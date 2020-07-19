@@ -17,7 +17,8 @@
     "pages/me/my-info/my-info",
     "pages/me/my-order/my-order",
     "pages/me/my-item/my-item",
-    "pages/me/my-other/my-other"
+    "pages/me/my-other/my-other",
+    "pages/poster/poster"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -51,6 +52,12 @@
         "text": "我的",
         "iconPath": "images/tabBar/me-off.png",
         "selectedIconPath": "images/tabBar/me-on.png"
+      },
+      {
+        "pagePath": "pages/poster/poster",
+        "text": "画报",
+        "iconPath": "images/tabBar/index-off.png",
+        "selectedIconPath": "images/tabBar/index-on.png"
       }
     ],
     "color": "#999",

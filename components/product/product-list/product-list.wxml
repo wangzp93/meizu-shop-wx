@@ -1,8 +1,8 @@
 <!-- 产品列表 -->
 <view class="product-list">
-  <view wx:for="{{productList}}" wx:for-item="product" wx:key="{{index}}" class="product-content">
+  <view wx:for="{{productList}}" wx:for-item="product" wx:key="index" class="product-content">
     <navigator url="{{product.a_href}}">
-      <image src="{{product.img_src}}" alt="{{product.name}}" lazy-load="true" mode="widthFix"></image>
+      <image class="product-content-img" src="{{product.img_src}}" alt="{{product.name}}" lazy-load mode="widthFix"></image>
       <view class="info">
         <view class="products-name">{{ product.name }}</view>
         <view class="slogan">
@@ -11,7 +11,7 @@
             {{ product.feature }}
           </view>
         </view>
-        <view class="price"><i>{{ product.unit }}</i>{{ product.price }}</view>
+        <view class="price"><i class="price-icon">{{ product.unit }}</i>{{ product.price }}</view>
       </view>
     </navigator>
   </view>

@@ -19,7 +19,7 @@
   box-sizing: border-box;    
 }
 /* 产品图片 */
-.product-list .product-content image {
+.product-list .product-content .product-content-img {
   display: inline-block;
   width: 85%;
   min-height: 100px;
@@ -72,7 +72,7 @@
   color: #c00;
 
 }
-.product-list .product-content .price i {
+.product-list .product-content .price .price-icon {
   font-style: normal;
   font-size: 2.8vw;
 }

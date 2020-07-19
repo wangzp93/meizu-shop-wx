@@ -1,6 +1,6 @@
 /* pages/home/home.wxss */
 /* 轮播图 */
-swiper {
+.home-swiper {
   height: 389rpx;
 }
 .slide-image {

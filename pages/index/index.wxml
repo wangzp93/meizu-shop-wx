@@ -1,8 +1,8 @@
 <!-- 轮播图 -->
-<swiper indicator-dots="{{indicatorDots}}"
+<swiper class="home-swiper" indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
   circular="{{circular}}" easing-function="{{easingFunction}}">
-  <block wx:for="{{bannerList}}" wx:key="{{index}}">
+  <block wx:for="{{bannerList}}" wx:key="index">
     <swiper-item>
       <navigator url="{{item.a_href}}">
         <image src="{{item.img_src}}" mode="widthFix" class="slide-image"></image>

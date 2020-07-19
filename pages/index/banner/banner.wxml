@@ -1,9 +1,9 @@
 <!-- 广告 -->
 <view class="index-banner" id="index-banner">
-  <view wx:for="{{rowList}}" wx:for-item="row" wx:key="{{index}}" class="row">
-    <view wx:for="{{row.bannerList}}" wx:for-item="banner" wx:for-index="i" wx:key="{{i}}" class="banner-lg">
+  <view wx:for="{{rowList}}" wx:for-item="row" wx:key="index" class="row">
+    <view wx:for="{{row.bannerList}}" wx:for-item="banner" wx:for-index="i" wx:key="i" class="banner-lg">
       <navigator url="{{banner.a_href}}">
-        <image src="{{banner.img_src}}" mode="widthFix"></image>
+        <image class="banner-lg-img" lazy-load src="{{banner.img_src}}" mode="widthFix"></image>
       </navigator>
     </view>
   </view>

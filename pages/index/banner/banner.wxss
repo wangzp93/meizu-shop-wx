@@ -8,7 +8,7 @@
 .index-banner .row .banner-lg {
   width: 100%;
 }
-.index-banner .row .banner-lg image {
+.index-banner .row .banner-lg .banner-lg-img {
   width: 100%;
   display: block;
 }

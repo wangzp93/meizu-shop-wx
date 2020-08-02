@@ -2,13 +2,13 @@
 <view class="myorders">
   <view class="top">
     <text class="order-text">我的订单</text>
-    <navigator url="https://ordercenter.mall.meizu.com/mall/order/init.html" class="goto-allorder">查看全部订单
+    <navigator class="top-nav" url="https://ordercenter.mall.meizu.com/mall/order/init.html" class="goto-allorder">查看全部订单
       <text class="iconfont icon-next"></text>
     </navigator>
   </view>
   <!-- 待付款、待收货等 -->
   <view class="order-status">
-    <navigator wx:for="{{statusList}}" wx:for-item="status" wx:key="{{index}}" url="{{status.a_href}}">
+    <navigator class="order-status-nav" wx:for="{{statusList}}" wx:for-item="status" wx:key="index" url="{{status.a_href}}">
       <text class="iconfont {{status.icon}}"></text>
       <view>{{ status.chName }}</view>
     </navigator>

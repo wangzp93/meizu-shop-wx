@@ -1,6 +1,6 @@
 <view class="my-item">
-  <navigator wx:for="{{itemList}}" url="{{item.a_href}}" wx:key="{{index}}">
-    <image src="{{item.img_src}}" mode="widthFix"></image>
+  <navigator class="my-item-nav" wx:for="{{itemList}}" url="{{item.a_href}}" wx:key="index">
+    <image class="my-item-img" src="{{item.img_src}}" mode="widthFix"></image>
     <view>{{ item.text }}</view>
   </navigator>
 </view>

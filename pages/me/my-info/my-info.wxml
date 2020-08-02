@@ -8,7 +8,7 @@
   </i> -->
   <!-- 头像 -->
   <view class="my-icon">
-    <image src="{{img_src}}" mode="widthFix"></image>
+    <image class="my-icon-img" src="{{img_src}}" mode="widthFix"></image>
   </view>
   <!-- 昵称 -->
   <view class="my-name">{{ myName }}</view>

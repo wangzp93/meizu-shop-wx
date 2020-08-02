@@ -13,7 +13,7 @@
   font-size: 4.5vw;
 }
 
-.myorders .top navigator {
+.myorders .top .top-nav {
   font-size: 3.5vw;
   color: #999;
 }
@@ -25,7 +25,7 @@
   display: flex;
   justify-content: space-between;
 }
-.myorders .order-status navigator {
+.myorders .order-status .order-status-nav {
   width: 25%;
   color: #999;
   text-align: center;
@@ -34,10 +34,10 @@
 .myorders .order-status .iconfont {
   font-size: 7vw;
 }
-.myorders .order-status navigator:nth-child(n + 2) {
+.myorders .order-status .order-status-nav:nth-child(n + 2) {
   border-left: 1px solid #ddd;
 }
 
-.myorders .order-status navigator .icon {
+.myorders .order-status .order-status-nav .icon {
   width: 2em;
 }

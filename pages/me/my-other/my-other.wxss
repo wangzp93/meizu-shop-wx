@@ -3,7 +3,7 @@
   background: #FFF;
 
 }
-.my-other navigator {
+.my-other .my-other-nav {
   padding: 0 5vw;
   color: #333;
   display: flex;
@@ -12,6 +12,6 @@
   line-height: 3.5em;
 
 }
-.my-other navigator:nth-child(n + 2) {
+.my-other .my-other-nav:nth-child(n + 2) {
   border-top: 1px solid #E5E5E5;
 }

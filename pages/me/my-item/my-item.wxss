@@ -5,11 +5,11 @@
   display: flex;
   justify-content: space-around;
 }
-.my-item navigator {
+.my-item .my-item-nav {
   text-align: center;
   color: #666;
   font-size: 3.5vw;
 }
-.my-item navigator image {
+.my-item .my-item-nav .my-item-img {
   width: 7vw;
 }

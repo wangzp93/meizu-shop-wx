@@ -27,7 +27,7 @@
   padding: 0.8vw;
 
 }
-.my-info .my-icon image {
+.my-info .my-icon .my-icon-img {
   border-radius: 50%;
 }
 
